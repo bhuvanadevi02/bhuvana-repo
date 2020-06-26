@@ -1,0 +1,41 @@
+<div class="wrapper">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">MOCK TEST</a>
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          Question
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="category">Add Category</a>
+          <a class="dropdown-item" href="subject">Add Subject</a>
+        </div>
+      </li>
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+          User
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="approval">Approval</a>
+          <a class="dropdown-item" href="result">Result</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="report">Report</a>
+      </li>
+      <li class="nav-item pt-2">
+        <a href="signup"> <i class="fa fa-sign-out" style="color:#fff" aria-hidden="true">Signout</i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+<div id="content">
+  <router-outlet> </router-outlet>
+</div>
